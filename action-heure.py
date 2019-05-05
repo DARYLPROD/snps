@@ -40,13 +40,13 @@ def verbalise_minute(i):
 def intent_received(hermes, intent_message):
 
 	print()
-	print(intent_message.intent.intent_name)
+	print((intent_message.intent.intent_name))
 	print ()
 
 	if intent_message.intent.intent_name == 'Joseph:askTime':
 
 		sentence = 'Il est '
-		print(intent_message.intent.intent_name)
+		print((intent_message.intent.intent_name))
 
 		now = datetime.now(timezone('Europe/Paris'))
 
